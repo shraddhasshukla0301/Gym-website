@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saurabh's yoga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            /* Css reset */
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Baloo 2', cursive;
+            background: url('img/phul.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 1000px;
+
+
+        }
+
+        .header {
+
+            /* border: 2px solid white; */
+        }
+
+        .left {
+            color:white;
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 14px;
+            top: 0px;
+            filter: invert(100%);
+        }
+        
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 22px auto;
+            color:white;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            color: white;
+            /* border: 2px solid gray; */
+            display: inline-block;
+            position: absolute;
+            right: 14px;
+            top: 10px;
+        }
+
+        .mid li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .navbar li {
+
+            display: inline-block;
+        }
+
+        .navbar li a {
+            padding: 3px 6px;
+            font-size: 18px;
+        }
+
+        .navbar li a:hover {
+            color: gray;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .header img {
+            height: 112px;
+            width: 119px;
+            margin: 0px 20px;
+            padding: 3px 8px;
+        }
+
+        .btn {
+
+            /* border: 1px solid black; */
+            border-radius: 7px;
+            padding: 5px 27px;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Baloo 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: gray;
+            text-decoration: underline;
+            /* color: gray;  */
+
+        }
+
+        .container {
+            /* border: 1px solid white; */
+            color:white ;
+            border-radius: 18px;
+            width: 25%;
+    margin: 201px 9px;
+    padding: 34px 24px;  
+        }
+        .form input{
+            /* border: 2px solid black; */
+            border-radius: 10px;
+            margin: 3px 70px;
+    padding: 4px 34px;
+
+        } 
+    .container h1{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .container button{
+        display: block;
+        width: 62%;
+        margin: 20px auto;
+    }
+    div#logo{
+        color: #0d0c0c;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo2.jpg" alt="">
+            <div id="logo">SAURABH YOGA CENTER</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness center</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Call us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Best Yoga Center</h1>
+        <form action="nhi hai abhi">
+            <div class="form">
+    <input type="text" name="" id="" placeholder="Write Your Name">
+    </div>
+            <div class="form">
+    <input type="text" name="" id="" placeholder="Write Your Age">
+    </div>
+            <div class="form">
+    <input type="text" name="" id="" placeholder="Write Your Gender">
+    </div>
+            <div class="form">
+    <input type="text" name="" id="" placeholder="Write Your Locality">
+    </div>
+    <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
